@@ -93,62 +93,72 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
-    margin: 0px;
-    font-family: Helvetica;
-}
 
-table {
-    width: 100%;
-    margin: 0px;
-    background-color: white;
-    border: 5px;
-    border-color: #55a92f;
-    table-layout:fixed;
-    border-style:solid;
-    border-spacing:0px;
-}
+h1.pos_right {
+				position: relative;
+				right: -60%;
+				}
+				
+table.pos_left {
+				position: relative;
+				left: 5%;
+				border: 5px solid black;
+				text-align: center;
+				
+				}
+				
+h3.pos_right {
+				position: relative;
+				right: -65%;
+				top: -17px;
+				}
+				
+p.extension {
+				position: relative;
+				top:-43%;
+				right: -40%;
+				}
+				
+p.underneath {
+				position:relative;
+				top: -42%;
+				right:-40%;
+				}
 
-.banner {
-    font-size: 55px;
-    color: black;
-}
- 
-thead { 
-    color: black;
-    font-size: 45px;
-}
+h2.medical_label {
+				position:relative;
+				top:-39%;
+				right: -40%;
+				}
 
-td { 
-    text-align: center;
-    text-transform: uppercase;
-    line-height:43px;
-    font-size:35px;
-}
- 
-.alternate {
-    background-color: white;
-    
-}
-
-.original {
-    color: #ffffff;
-    background: lightblue;
-    text-underline: none;
-    text-decoration: none;
-}
-
-.original a {
-    color: #ffffff;
-}
-
-a { 
-    text-decoration:none;
-}
-
-.click a {
-    display: block;
-}
+ul.info {
+			position:relative;
+			top:-40%;
+			right: -38%;
+			}
+			
+h2.emergency {
+				position:relative;
+				top:-38%;
+				right:-40%;
+				}
+				
+ol.people {
+			position:relative;
+			top:-39%;
+			right:-38%;
+			}
+			
+p.pos_right {
+				position:relative;
+				top:-43%;
+				right:-40%;
+				}
+				
+td {
+		height: 25px;
+		vertical-align:center;
+		}
 
 
 /* ==========================================================================
