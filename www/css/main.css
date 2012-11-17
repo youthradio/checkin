@@ -112,6 +112,7 @@ table {
 .banner {
     font-size: 55px;
     color: black;
+    text-align: left;
 }
  
 thead { 
