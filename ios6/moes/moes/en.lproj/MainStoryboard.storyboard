@@ -289,6 +289,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="doSomething:" destination="2" eventType="touchUpInside" id="Lc2-kR-mST"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCK-Ge-DkR">
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -573,6 +576,9 @@
                             <constraint firstItem="X0e-nw-aRo" firstAttribute="bottom" secondItem="EKD-g2-EMm" secondAttribute="bottom" type="default" id="zfS-o9-i78"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="kurt" destination="40c-JB-k21" id="ddk-4A-0sj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="RUE-mn-eYm"/>
@@ -589,6 +595,10 @@
         </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doSomething:"/>
+                <relationship kind="outlet" name="kurt" candidateClass="UIButton"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

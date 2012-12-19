@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    UIButton *kurt;
+}
+
+@property (nonatomic, strong) IBOutlet UIButton *kurt;
+
+-(IBAction)doSomething:(id)sender;
 
 @end
